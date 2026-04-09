@@ -1,0 +1,536 @@
+A full-featured Club Hub — Events · Challenges · Team · Gallery · Projects
+
+Participants must design and develop a comprehensive Club Hub Web Application for their college
+technical club. This platform goes beyond a typical competitive programming site - it serves as the official
+digital identity of the club, combining member management, event hosting, challenge systems, project
+showcases, and a rich media gallery into one cohesive, modern web experience.
+Inspired by platforms such as LeetCode, HackerRank, and Devfolio, the application must incorporate
+club-centric features that make it the go-to hub for every member from curious freshers to experienced
+seniors.
+
+College technical clubs often lack a centralised, professional web presence. Activities are scattered
+across WhatsApp groups, Google Forms, and social media pages, making it difficult for students to
+discover events, track their growth, or understand what the club has achieved. Participants must solve the
+following key pain points:
+No single source of truth
+
+Club info is fragmented - members cannot find team details, past
+projects, or results in one place.
+
+Invisible team members
+
+Club members and their roles have no public visibility on any dedicated
+platform.
+
+Poor event discovery
+
+Students miss events due to lack of an organised calendar and
+notification system.
+
+No challenge ecosystem
+
+There is no structured challenge system with real-time submission
+tracking and leaderboards.
+
+Project graveyard
+
+Club projects are rarely documented or showcased, reducing their impact
+and learning value.
+
+Gallery chaos
+
+Event photos and memories are buried in drives or group chats with no
+curated public archive.
+
+The platform must implement all of the following modules. Each module is a separate, well-scoped unit of
+work evaluated independently.
+
+4.1​Authentication & User Profiles
+■​
+
+Signup / Login with email and password
+
+■​
+
+OAuth integration - Google or GitHub login
+
+■​
+
+User profile: avatar, bio, social links (GitHub, LinkedIn), tech stack tags
+
+■​
+
+Role-based access control - Visitor, Member, Admin
+
+■​
+
+Personal dashboard showing joined events, challenge scores, and rank
+
+■​
+
+Account settings: password change, profile editing, notification preferences
+
+4.2​Team Section
+A dedicated, visually engaging page showcasing every member who makes the club run.
+■​
+
+Hierarchical display: Club Leads - Core Team - Members
+
+■​
+
+Each card: photo, name, designation, batch/year, social links
+
+■​
+
+Skills and tech-stack tags per member
+
+■​
+
+Filter by role, batch, or domain (Web, AI/ML, Design, etc.)
+
+■​
+
+Admin can add, update, or remove team members
+
+■​
+
+Animated cards with hover effects and modal detail view
+
+■​
+
+Alumni toggle to also showcase past members
+
+4.3​Events System (Upcoming & Past)
+■​
+
+Unified Events page with two tabs: Upcoming Events and Finished Events
+
+■​
+
+Each event card: title, banner image, date-time, venue/mode, category tag, registration count
+
+■​
+
+Countdown timer for upcoming events
+
+■​
+
+One-click registration with confirmation
+
+■​
+
+Event detail page: full description, schedule, speakers/hosts, FAQs
+
+■​
+
+Past events show results, winner highlights, and gallery link
+
+■​
+
+Admin: create, edit, publish or unpublish events with rich text editor
+
+■​
+
+Event categories: Workshop, Hackathon, Talk, Competition, Social
+
+4.4​Challenge & Competition System
+■​
+
+Challenge listing with filters: difficulty (Easy / Medium / Hard), category, status
+
+■​
+
+Each challenge: title, description, problem statement (rich text or markdown), deadline
+
+■​
+
+Submission via GitHub repo link + live hosted link
+
+■​
+
+Submission validation - URL format check, duplicate prevention
+
+■​
+
+Submission history per user with timestamps and status
+
+■​
+
+Real-time global leaderboard per challenge with score and time bonus
+
+■​
+
+Admin: create challenges, set scoring rules, review and grade submissions
+
+■​
+
+Challenge categories: UI/UX, Full-Stack, API Design, Open Innovation
+
+4.5​Projects Showcase
+A curated portfolio of club-built projects - the engine of the club's credibility.
+■​
+
+Project cards: title, thumbnail, description, tech stack tags, team members
+
+■​
+
+Links to GitHub repo, live demo, and project documentation
+
+■​
+
+Filter by tech stack, year, domain, or team size
+
+■​
+
+Featured or pinned projects highlighted on the homepage
+
+■​
+
+Admin: add, edit, feature, or archive projects
+
+■​
+
+Like/star system for community appreciation
+
+■​
+
+Project detail page with screenshots carousel and extended description
+
+4.6​Media Gallery
+■​
+
+Masonry or grid layout with high-quality event photos
+
+■​
+
+Albums organised by event name and date
+
+■​
+
+Lightbox viewer with full-screen support
+
+■​
+
+Admin: upload images (single or bulk), assign to albums, delete
+
+■​
+
+Lazy loading for performance on low-bandwidth connections
+
+■​
+
+Optional: short video reels from events
+
+4.7​Global Leaderboard & Performance Analytics
+■​
+
+Real-time global leaderboard across all challenges
+
+■​
+
+Event-wise leaderboard scoped per challenge or hackathon
+
+■​
+
+User rank badge on profile: Newbie - Contributor - Expert - Legend
+
+■​
+
+Personal analytics dashboard: score over time, participation rate, win rate
+
+■​
+
+Activity heatmap similar to a GitHub contribution graph
+
+■​
+
+Admin analytics: platform-wide stats - registrations, submissions, active users
+
+4.8​Homepage & Club Landing
+■​
+
+Hero banner with club tagline and CTA buttons (Join / Explore)
+
+■​
+
+Quick stats: member count, events hosted, challenges launched, projects built
+
+■​
+
+Upcoming events preview strip
+
+■​
+
+Featured challenges and featured projects carousel
+
+■​
+
+Top leaderboard preview (Top 5)
+
+■​
+
+Club announcement ticker or notices
+
+■​
+
+Social media links and recruitment CTA
+
+4.9​Admin Panel
+■​
+
+Secure admin-only route with role guard
+
+■​
+
+CRUD operations for: Events, Challenges, Team Members, Projects, Gallery Albums
+
+■​
+
+Submission review: view, score, and provide feedback on entries
+
+■​
+
+User management: promote to admin, ban account, reset password
+
+■​
+
+Platform analytics dashboard with charts for signups, registrations, and more
+
+■​
+
+Announcement or notice publisher
+
+■​
+
+Audit log of admin actions
+
+Participants are free to choose any technology stack. The following requirements must be satisfied
+regardless of the tools or frameworks chosen:
+
+Frontend
+
+Backend
+
+Database
+
+Responsive, mobile-first UI. Must work correctly on both desktop and mobile
+browsers.
+RESTful or GraphQL API with secure authentication and role-based access
+control.
+Persistent data storage for users, events, challenges, submissions, and gallery
+assets.
+
+File Storage
+
+Ability to upload and serve images for gallery, profiles, and event banners.
+
+Real-Time
+
+Live leaderboard updates without requiring a full page refresh.
+
+Authentication
+
+Secure login with hashed passwords and session or token management.
+
+Deployment
+
+Application must be publicly accessible via a live URL with HTTPS.
+
+Version Control
+
+All code hosted on a public GitHub repository with a meaningful commit history.
+
+UI / UX Design
+
+25%
+
+Visual design, responsiveness, animations, mobile-first layout
+
+Innovation & Features
+
+20%
+
+Unique ideas, bonus features, creative problem-solving
+
+Functionality
+
+20%
+
+All core features working, smooth user flows, no broken pages
+
+Club-Specific Modules
+
+15%
+
+Team section, gallery, events timeline, projects showcase
+
+Presentation & Pitching
+
+10%
+
+Deployment
+
+5%
+
+Live hosted application with HTTPS and fast load time
+
+Code Quality
+
+5%
+
+Clean code, modular structure, documented README
+
+Clarity of explanation, confidence, live demo walkthrough, Q&A;
+handling
+
+AI Project / Challenge
+Recommendations
+
+Suggest challenges based on user skill tags and past activity.
+
+Badges & Achievement System
+
+Earn badges for first submission, win streaks, and milestones.
+
+Streak / Activity System
+
+Daily login streak, weekly challenge streak displayed on profile.
+
+Dark Mode
+
+System-aware or manual dark/light toggle throughout the
+platform.
+
+Email / Push Notifications
+
+Reminders​
+
+for​
+
+events,​
+
+challenge​
+
+deadlines,​
+
+and
+
+announcements.
+Progressive Web App (PWA)
+
+Installable, offline-capable mobile experience.
+
+Alumni Network Section
+
+Showcase past members and their current roles and
+companies.
+
+Blog / Technical Articles
+
+Club members can publish posts or tutorials on the platform.
+
+Certificate Generation
+
+Auto-generate​ participation​
+
+or​ winner​ certificates​ as
+
+downloadable PDFs.
+Multi-Language Support
+
+Internationalisation - at least English plus one regional
+language.
+
+8th March | 9:30 AM
+
+Event Begins — Coding & Development Phase Starts
+
+8th March | Overnight
+
+Continuous Development — Build, Test, Deploy
+
+9th March | 12:30 PM
+
+Submission Deadline — GitHub link + Live URL due
+
+9th March | 12:30 – 2:00 PM
+
+Lunch Break
+
+9th March | 2:00 PM
+
+Shortlist Announcement — Selected teams revealed
+
+9th March | 2:00 – 3:30 PM
+
+Project Presentations — Live website & code walkthrough
+
+9th March | 3:30 PM
+
+Evaluation Closes — Results & Closing Ceremony
+
+* PPT slides and demo videos are optional. Judging is based on your live website and a direct code walkthrough with
+the team.
+
+Live Deployed Application
+
+A publicly accessible URL (HTTPS preferred). Must be live at the time
+of judging by 12:30 PM on Day 2.
+
+GitHub Repository
+
+Public repo with a descriptive commit history. No single init dump
+commit. Submit link before deadline.
+
+README Documentation
+
+Setup instructions, feature list, tech stack, screenshots, team
+members, and known issues.
+
+Demo Video (Optional)
+
+Short walkthrough video if the team wishes to include one. Not
+mandatory for evaluation.
+
+Presentation Deck (Optional)
+
+Slide deck covering problem, solution, and architecture. Not required
+— live demo takes priority.
+
+■​
+
+Team size: 2 to 4 members only. Solo submissions will not be accepted.
+
+■​
+
+All code must be written during the event. Pre-built templates must be disclosed in the README.
+
+■​
+
+Application must be deployed and live at the time of evaluation.
+
+■​
+
+GitHub repository must be submitted before the deadline. Late commits will be ignored.
+
+■​
+
+Plagiarism will result in immediate disqualification without appeal.
+
+■​
+
+Open-source libraries and UI component kits are allowed - declare them in the README.
+
+■​
+
+AI-generated code is allowed but must be understood and explainable by the team during
+judging.
+
+■​
+
+Admin panel must be protected - do not expose admin credentials in the public repository.
+
+WEB WEAVE '26 - Build - Compete - Connect - Innovate - Deploy
+This document is the official problem statement. All participants are expected to read it in full.
+
+

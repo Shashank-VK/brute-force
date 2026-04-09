@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - img
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - img [ref=e9]
+            - text: Phase 1 foundation
+          - generic [ref=e11]:
+            - paragraph [ref=e12]: Boot Force
+            - generic [ref=e61]:
+              - generic:
+                - generic [ref=e62]: Innovate
+                - generic [ref=e63]: Build
+            - paragraph [ref=e13]: "The implementation starts with the visual foundation: Blade Runner-inspired colors, glass surfaces, motion tokens, and a reusable component layer that later phases can build on without rework."
+          - generic [ref=e14]:
+            - button "Enter the system" [ref=e15] [cursor=pointer]:
+              - text: Enter the system
+              - img [ref=e16]
+            - button "Review foundation" [ref=e18] [cursor=pointer]
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - heading "Design tokens" [level=3] [ref=e21]
+            - paragraph [ref=e22]: Core palette and motion primitives live here first.
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - paragraph [ref=e25]: Void
+              - paragraph [ref=e26]: "#0B0C10"
+            - generic [ref=e27]:
+              - paragraph [ref=e28]: Glass
+              - paragraph [ref=e29]: "#12141A"
+            - generic [ref=e30]:
+              - paragraph [ref=e31]: Hologram
+              - paragraph [ref=e32]: "#E63946"
+            - generic [ref=e33]:
+              - paragraph [ref=e34]: Glitch
+              - paragraph [ref=e35]: "#00E5FF"
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: Single theme everywhere
+            - generic [ref=e40]: Glass surfaces with cyan hover glows
+            - generic [ref=e41]: Motion with reduced-motion fallbacks
+            - generic [ref=e42]: Reusable shadcn base components
+          - generic [ref=e43]:
+            - generic [ref=e44]: Single theme everywhere
+            - generic [ref=e45]: Glass surfaces with cyan hover glows
+            - generic [ref=e46]: Motion with reduced-motion fallbacks
+            - generic [ref=e47]: Reusable shadcn base components
+        - generic [ref=e48]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Tokens
+            - generic [ref=e64]: "12"
+          - generic [ref=e53]:
+            - paragraph [ref=e54]: Components
+            - generic [ref=e65]: "8"
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: Themes
+            - generic [ref=e66]: "1"
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Motion tiers
+            - generic [ref=e67]: "5"
+  - alert [ref=e68]

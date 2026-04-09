@@ -1,0 +1,60 @@
+BentoGrid (Aceternity UI)
+What it does: Asymmetric grid layout where some cards span 2 columns. Each card has a header area (visual), title, description, and icon. Clean, modern dashboard/feature showcase layout.
+
+Source: Aceternity UI — same issue: need the actual BentoGrid and BentoGridItem source components.
+
+⚠️ Same as Timeline: You sent the demo, not the base component. Need the source for BentoGrid and BentoGridItem from Aceternity. Find and send, or I'll build matching the API.
+
+Dependencies: @tabler/icons-react — we will NOT use this. Replacing with lucide-react which is already in our stack.
+
+Where it fits in Boot Force:
+
+Admin dashboard — the primary use. Stats cards in a bento layout:
+Large card (2-col): signups over time chart
+Small card: total users count
+Small card: total submissions
+Large card (2-col): submissions over time chart
+Small card: active users
+Small card: total events
+Homepage features section — optional "What Boot Force Offers" section with bento cards for Events, Challenges, Projects, Gallery
+Dashboard — user's personal stats in a bento arrangement
+Modifications needed for our brand:
+
+Replace skeleton gradient: from-neutral-900 to-neutral-800 → from-[#140A29] to-[#0A0514]
+Card background: glass style bg-[#140A29]/40 backdrop-blur-md border-[#2D1B4E]
+Card hover: cyan border glow hover:border-[#00F0FF] hover:shadow-[0_0_20px_rgba(0,240,255,0.2)]
+Text: #F2F0FF titles, #A39BBA descriptions
+Icons: lucide-react in #E6007E (magenta) instead of @tabler/icons-react in neutral
+Header area: will contain Recharts charts (admin) or icons/illustrations (homepage)
+import { cn } from "@/lib/utils";
+import React from "react";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
+import {
+IconArrowWaveRightUp,
+IconBoxAlignRightFilled,
+IconBoxAlignTopLeft,
+IconClipboardCopy,
+IconFileBroken,
+IconSignature,
+IconTableColumn,
+} from "@tabler/icons-react";
+
+export function BentoGridDemo() {
+return (
+<BentoGrid className="max-w-4xl mx-auto">
+{items.map((item, i) => (
+<BentoGridItem
+key={i}
+title={item.title}
+description={item.description}
+header={item.header}
+icon={item.icon}
+className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+/>
+))}
+</BentoGrid>
+);
+}
+const Skeleton = () => (
+
+<div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div> ); const items = [ { title: "The Dawn of Innovation", description: "Explore the birth of groundbreaking ideas and inventions.", header: <Skeleton />, icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />, }, { title: "The Digital Revolution", description: "Dive into the transformative power of technology.", header: <Skeleton />, icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />, }, { title: "The Art of Design", description: "Discover the beauty of thoughtful and functional design.", header: <Skeleton />, icon: <IconSignature className="h-4 w-4 text-neutral-500" />, }, { title: "The Power of Communication", description: "Understand the impact of effective communication in our lives.", header: <Skeleton />, icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />, }, { title: "The Pursuit of Knowledge", description: "Join the quest for understanding and enlightenment.", header: <Skeleton />, icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />, }, { title: "The Joy of Creation", description: "Experience the thrill of bringing ideas to life.", header: <Skeleton />, icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />, }, { title: "The Spirit of Adventure", description: "Embark on exciting journeys and thrilling discoveries.", header: <Skeleton />, icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />, }, ];

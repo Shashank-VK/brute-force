@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context-mode_context-mode__ctx_execute_file",
+      "Bash(winget --version)",
+      "Bash(choco --version)",
+      "Bash(scoop --version)",
+      "Bash(winget search:*)",
+      "Bash(winget install:*)",
+      "Bash(\"C:\\\\Users\\\\shash\\\\AppData\\\\Local/Microsoft/WinGet/Packages/oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe/poppler-25.07.0/Library/bin/pdftotext.exe\" \"build guide club \\(1\\).pdf\" .tmp/build_guide.txt)",
+      "mcp__plugin_context-mode_context-mode__ctx_index",
+      "mcp__plugin_context-mode_context-mode__ctx_execute",
+      "WebSearch",
+      "Bash(npx supabase:*)",
+      "Bash(C:\\\\Users\\\\shash\\\\AppData\\\\Local/Microsoft/WinGet/Packages/oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe/poppler-25.07.0/Library/bin/pdftotext.exe:*)",
+      "Bash(npm install:*)",
+      "Bash(SUPABASE_DB_PASSWORD='Shaazad@123' npx supabase:*)",
+      "Bash(npx shadcn@latest:*)",
+      "Bash(npx next:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_console_messages",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_wait_for",
+      "Bash(npm run:*)",
+      "Bash(npx kill-port:*)",
+      "mcp__plugin_playwright_playwright__browser_run_code",
+      "mcp__plugin_context-mode_context-mode__ctx_fetch_and_index",
+      "mcp__plugin_context-mode_context-mode__ctx_doctor",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "Bash(node -e ':*)",
+      "Bash(mkdir -p \".tmp\")",
+      "Bash(python -c ':*)",
+      "mcp__plugin_playwright_playwright__browser_tabs",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
+    ]
+  }
+}
