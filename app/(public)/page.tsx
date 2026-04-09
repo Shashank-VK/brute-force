@@ -23,34 +23,34 @@ const heroMorphTexts = ["CODE", "BUILD", "INNOVATE"];
 
 const photos = [
   {
-    alt: "Hackathon floor with students",
+    alt: "Brute Force club event photo 1",
     caption: "Hackathon Nights",
-    src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+    src: "/gallery/club-photo-01.jpeg",
   },
   {
-    alt: "Team collaboration around laptops",
+    alt: "Brute Force club event photo 2",
     caption: "Team Build Sessions",
-    src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+    src: "/gallery/club-photo-02.jpeg",
   },
   {
-    alt: "Live workshop presentation",
+    alt: "Brute Force club event photo 3",
     caption: "Live Workshops",
-    src: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=1200&q=80",
+    src: "/gallery/club-photo-03.jpeg",
   },
   {
-    alt: "Tech conference stage",
+    alt: "Brute Force club event photo 4",
     caption: "Conference Days",
-    src: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+    src: "/gallery/club-photo-04.jpeg",
   },
   {
-    alt: "Students coding in low light",
+    alt: "Brute Force club event photo 5",
     caption: "After-Hours Coding",
-    src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    src: "/gallery/club-photo-05.jpeg",
   },
   {
-    alt: "Demo day celebration",
+    alt: "Brute Force club event photo 6",
     caption: "Demo Day",
-    src: "https://images.unsplash.com/photo-1559223607-b4d0555ae227?auto=format&fit=crop&w=1200&q=80",
+    src: "/gallery/club-photo-06.jpeg",
   },
 ];
 
