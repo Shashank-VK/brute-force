@@ -3,6 +3,12 @@
 
 link --      brute-force-85r96bw7l-shashankvkaramudi51-8263s-projects.vercel.app
 
+for admin use this 
+email -- shravanti@gmail.com
+password -- 123456789
+
+for student you can create one 
+
 
 
 
