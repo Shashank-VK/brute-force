@@ -1,5 +1,11 @@
 # Brute Force - Web Weave '26
 
+
+link --      brute-force-85r96bw7l-shashankvkaramudi51-8263s-projects.vercel.app
+
+
+
+
 Brute Force is the official digital hub for the CMR University technical club. It centralizes member management, event hosting, challenge systems, project showcases, media galleries, and performance tracking into one cohesive, high-performance platform.
 
 This platform was built specifically for **Web Weave '26**.
