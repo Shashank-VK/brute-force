@@ -1,0 +1,475 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner "Harvard University" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - link "Harvard University" [ref=e9] [cursor=pointer]:
+          - /url: https://www.harvard.edu/
+          - generic [ref=e10]: Harvard University
+        - generic [ref=e11]:
+          - navigation "Site Notifications" [ref=e13]:
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - link "Learn about our lawsuits to protect our students and researchers" [ref=e17] [cursor=pointer]:
+                  - /url: https://www.harvard.edu/federal-lawsuits/
+          - navigation "Search and Navigation" [ref=e18]:
+            - button "Open Site Search" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: 
+              - generic [ref=e22]: Search
+            - button "Menu" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+              - generic [ref=e26]: Menu
+      - generic [ref=e27]: 
+  - main [ref=e28]:
+    - heading "Harvard University" [level=1] [ref=e29]
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - img "Two people reaching out and holding hands" [ref=e33]
+        - generic [ref=e35]:
+          - heading "Mental Health" [level=2] [ref=e36]
+          - paragraph [ref=e37]: Across Harvard, researchers and scholars are working to better understand the full scope of mental health, including what causes disorders and how to best implement preventions and treatments.
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "An overview" [level=2] [ref=e41]
+          - paragraph [ref=e44]: In addressing the global mental health crisis, it’s important to understand the full scope of the problem so experts can properly provide care and support.
+        - generic [ref=e45]:
+          - paragraph [ref=e48]:
+            - generic [ref=e49]: 50%
+            - text: of the world’s population will experience a mental health disorder
+            - generic [ref=e50]:
+              - text: (
+              - link "Source" [ref=e51] [cursor=pointer]:
+                - /url: https://hms.harvard.edu/news/half-worlds-population-will-experience-mental-health-disorder
+              - text: )
+          - paragraph [ref=e54]:
+            - generic [ref=e55]: 1 in 5
+            - text: people under 18 experience a mental illness each year
+            - generic [ref=e56]:
+              - text: (
+              - link "Source" [ref=e57] [cursor=pointer]:
+                - /url: https://gsas.harvard.edu/news/colloquy-podcast-bridging-mental-health-care-gap
+              - text: )
+          - paragraph [ref=e60]:
+            - generic [ref=e61]: 11 years
+            - text: is the average delay between onset of mental health symptoms and treatment
+            - generic [ref=e62]:
+              - text: (
+              - link "Source" [ref=e63] [cursor=pointer]:
+                - /url: https://clp.law.harvard.edu/knowledge-hub/magazine/issues/approaching-lawyer-well-being/it-is-time-to-normalize-mental-health-check-ups/
+              - text: )
+          - paragraph [ref=e66]:
+            - generic [ref=e67]: 35%
+            - text: increase in suicide rates over the past two decades
+            - generic [ref=e68]:
+              - text: (
+              - link "Source" [ref=e69] [cursor=pointer]:
+                - /url: https://news.harvard.edu/gazette/story/2023/09/suicide-prevention-center-to-help-clinicians-assess-risk/
+              - text: )
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - heading "Let’s talk treatment" [level=2] [ref=e73]
+          - paragraph [ref=e76]: Researchers and physicians at Harvard are working to improve diagnostic methods, medical treatments, and access to care to move mental health care forward.
+        - separator [ref=e77]
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - figure [ref=e83]:
+            - img "Patient speaking with a doctor" [ref=e84]
+          - heading "Normalizing mental health check-ups" [level=3] [ref=e85]
+          - paragraph [ref=e86]: Promoting a proactive approach to mental health can help catch problematic symptoms early on.
+          - link "Normalizing mental health check-ups" [ref=e87] [cursor=pointer]:
+            - /url: https://clp.law.harvard.edu/knowledge-hub/magazine/issues/approaching-lawyer-well-being/it-is-time-to-normalize-mental-health-check-ups/
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - heading "Seeking solutions for bipolar disorder" [level=3] [ref=e91]
+            - figure [ref=e92]:
+              - img "Photo of Paola Arlotta" [ref=e93]
+            - link "Seeking solutions for bipolar disorder" [ref=e94] [cursor=pointer]:
+              - /url: https://news.harvard.edu/gazette/story/2025/08/seeding-solutions-for-bipolar-disorder/
+          - generic [ref=e95]:
+            - heading "Creating a drug discovery platform for mental health conditions" [level=3] [ref=e97]
+            - figure [ref=e98]:
+              - img "Close up of brain neurons" [ref=e99]
+            - link "Creating a drug discovery platform for mental health conditions" [ref=e100] [cursor=pointer]:
+              - /url: https://wyss.harvard.edu/technology/circavent-a-drug-discovery-platform-for-mental-health-conditions/
+          - generic [ref=e101]:
+            - heading "Using a machine-learning tool for assessing suicide risk in patients" [level=3] [ref=e103]
+            - figure [ref=e104]:
+              - img "Photo of Matthew Nock and Jordan Smoller" [ref=e105]
+            - link "Using a machine-learning tool for assessing suicide risk in patients" [ref=e106] [cursor=pointer]:
+              - /url: https://news.harvard.edu/gazette/story/2023/09/suicide-prevention-center-to-help-clinicians-assess-risk/
+          - generic [ref=e107]:
+            - heading "Diagnosing psychiatric disorders through genetic testing" [level=3] [ref=e109]
+            - figure [ref=e110]:
+              - img "An illustration of a double helix and a human brain" [ref=e111]
+            - link "Diagnosing psychiatric disorders through genetic testing" [ref=e112] [cursor=pointer]:
+              - /url: https://news.harvard.edu/gazette/story/2025/12/new-research-finds-5-genetic-signatures-shared-by-14-psychiatric-disorders/
+          - generic [ref=e113]:
+            - heading "Treating drug-resistant depression with TMS" [level=3] [ref=e115]
+            - figure [ref=e116]:
+              - img "A woman wearing a transcranial magnetic stimulation (TMS) device" [ref=e117]
+            - link "Treating drug-resistant depression with TMS" [ref=e118] [cursor=pointer]:
+              - /url: https://www.health.harvard.edu/mental-health/tms-treatment-may-succeed-when-depression-drugs-fail
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - heading "Just start" [level=2] [ref=e123]
+          - generic [ref=e124]:
+            - paragraph [ref=e126]: Supporting and maintaining your mental health is a lifelong practice and can often require professional assistance, but creating positive habits that have a lasting impact can start at any time.
+            - paragraph [ref=e127]:
+              - link "Learn more about building personal resilience" [ref=e128] [cursor=pointer]:
+                - /url: https://pll.harvard.edu/course/building-personal-resilience-managing-anxiety-and-mental-health
+                - text:  Learn more about building personal resilience
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Walk
+              - paragraph [ref=e135]:
+                - img "A person walking in the woods" [ref=e136]
+                - text: Studies show that spending time in natural environments can
+                - link "lower biomarkers for stress and reduce cycles of negative thoughts" [ref=e137] [cursor=pointer]:
+                  - /url: https://magazine.hms.harvard.edu/articles/walk-woods-may-boost-mental-health
+                - text: .
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: Eat
+              - paragraph [ref=e142]:
+                - img "A person eating an orange" [ref=e143]
+                - text: Eating an orange a day may
+                - link "lower a person’s depression risk by 20%" [ref=e144] [cursor=pointer]:
+                  - /url: https://news.harvard.edu/gazette/story/2025/02/eating-citrus-may-lower-depression-risk/
+                - text: ", according to a study led by Harvard Medical School’s Raaj Mehta."
+          - listitem [ref=e145]:
+            - generic [ref=e146]:
+              - generic [ref=e147]: Breathe
+              - paragraph [ref=e149]:
+                - img "A person walking in the woods" [ref=e150]
+                - text: Meditating for five minutes a day, consistently for a month, has shown
+                - link "reductions in standardized measures of depression and anxiety" [ref=e151] [cursor=pointer]:
+                  - /url: https://gsas.harvard.edu/news/colloquy-podcast-meditation-changes-your-brain-heres-how
+                - text: .
+      - generic [ref=e153]:
+        - heading "Youth and mental health" [level=2] [ref=e155]
+        - separator [ref=e157]
+      - generic [ref=e159]:
+        - figure [ref=e162]:
+          - img "A text exchange where someone is asking of the other person is ok" [ref=e163]
+        - generic [ref=e165]:
+          - heading "The kids aren’t alright" [level=3] [ref=e166]
+          - generic [ref=e167]:
+            - paragraph [ref=e169]: In this issue of the Harvard Medicine magazine, experts at Harvard Medical School explore the mental health crisis among young people through a number of different approaches.
+            - paragraph [ref=e170]:
+              - link "Explore Harvard Medicine magazine" [ref=e171] [cursor=pointer]:
+                - /url: https://magazine.hms.harvard.edu/youth-and-mental-health
+                - text:  Explore Harvard Medicine magazine
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - heading "Exploring how early development impacts mental health" [level=3] [ref=e177]
+          - paragraph [ref=e179]:
+            - text: Researchers are exploring early means of
+            - link "mental disorder prediction through teeth analysis" [ref=e180] [cursor=pointer]:
+              - /url: https://news.harvard.edu/gazette/story/2021/11/baby-teeth-may-help-identify-kids-at-risk-for-mental-disorders/
+            - text: ", and better understanding how"
+            - link "independent play can help with resilience, self-reliance, and mental health" [ref=e181] [cursor=pointer]:
+              - /url: https://www.gse.harvard.edu/ideas/edcast/24/02/improving-mental-health-through-independent-play
+            - text: .
+          - figure [ref=e182]:
+            - img "<h3>Exploring how early development impacts mental health</h3>" [ref=e183]
+        - generic [ref=e184]:
+          - heading "Understanding the power of the parent-child relationship" [level=3] [ref=e186]
+          - paragraph [ref=e188]:
+            - text: Harvard scientists are exploring the link between
+            - link "the mental health of parents and the mental health of adolescents" [ref=e189] [cursor=pointer]:
+              - /url: https://www.gse.harvard.edu/ideas/usable-knowledge/23/08/understanding-relationship-between-parent-and-teen-mental-health
+            - text: ", and offering"
+            - link "advice and at-home interventions" [ref=e190] [cursor=pointer]:
+              - /url: https://news.harvard.edu/gazette/story/2023/03/worried-about-childs-mental-health-youre-not-alone/
+            - text: to improve issues.
+          - figure [ref=e191]:
+            - img "<h3>Understanding the power of the parent-child relationship</h3>" [ref=e192]
+        - generic [ref=e193]:
+          - heading "Learning how school impacts mental health" [level=3] [ref=e195]
+          - paragraph [ref=e197]:
+            - text: With colleges seeing an
+            - link "increase in demand for mental health services" [ref=e198] [cursor=pointer]:
+              - /url: https://www.gse.harvard.edu/ideas/edcast/19/10/prioritizing-mental-health-college
+            - text: on campus, Harvard experts are
+            - link "working to help colleges design meaningful systems of support" [ref=e199] [cursor=pointer]:
+              - /url: https://www.gse.harvard.edu/ideas/news/26/01/theory-practice-approach-student-mental-health
+            - text: for all students.
+          - figure [ref=e200]:
+            - img "<h3>Learning how school impacts mental health</h3>" [ref=e201]
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - heading "Screen time" [level=2] [ref=e205]
+          - paragraph [ref=e208]: Emerging technologies have the potential to help or harm mental health. Harvard researchers are working to better understand their impact.
+        - separator [ref=e209]
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - figure [ref=e216]:
+            - img "Someone talking with a chatbot on their phone" [ref=e217]
+          - generic [ref=e218]:
+            - heading "Why is AI use associated with depressive symptoms?" [level=3] [ref=e219]
+            - generic:
+              - paragraph
+          - generic [ref=e221] [cursor=pointer]:  Learn more about the study
+          - link "Why is AI use associated with depressive symptoms?" [ref=e222] [cursor=pointer]:
+            - /url: https://www.hks.harvard.edu/faculty-research/policy-topics/science-technology-data/daily-ai-use-associated-depressive-symptoms
+            - text: Learn more about the study
+        - generic [ref=e224]:
+          - figure [ref=e226]:
+            - img "A person selecting moods based on cartoon faces" [ref=e227]
+          - generic [ref=e228]:
+            - heading "Do mood tracking apps help with mental health?" [level=3] [ref=e229]
+            - generic:
+              - paragraph
+          - generic [ref=e231] [cursor=pointer]:  Learn more about the research
+          - link "Do mood tracking apps help with mental health?" [ref=e232] [cursor=pointer]:
+            - /url: https://news.harvard.edu/gazette/story/2023/08/mental-health-ills-are-rising-do-mood-tracking-apps-help/
+            - text: Learn more about the research
+        - generic [ref=e234]:
+          - figure [ref=e236]:
+            - img "A phone with social media apps" [ref=e237]
+          - generic [ref=e238]:
+            - heading "Is social media responsible for its impact on mental health?" [level=3] [ref=e239]
+            - generic:
+              - paragraph
+          - generic [ref=e241] [cursor=pointer]:  Learn more about the connection
+          - link "Is social media responsible for its impact on mental health?" [ref=e242] [cursor=pointer]:
+            - /url: https://news.harvard.edu/gazette/story/2026/02/is-social-media-responsible-for-what-happens-to-users/
+            - text: Learn more about the connection
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - heading "Work/life balance" [level=2] [ref=e246]
+          - paragraph [ref=e249]: We spend close to a third of our lives working. Researchers are working to understand how that impacts our mental health, and what we can do to improve that relationship.
+        - separator [ref=e250]
+      - generic [ref=e253]:
+        - generic [ref=e255]:
+          - figure [ref=e256]:
+            - img "An illustration of a working tired but still working" [ref=e257]
+          - heading "Psychological safety at work is essential" [level=3] [ref=e258]
+          - paragraph [ref=e259]: A Harvard study found that workplaces where workers believed speaking up would not lead to embarrassment, rejection, or punishment had less incidence of employee burnout and less turnover.
+          - link "Psychological safety at work is essential" [ref=e260] [cursor=pointer]:
+            - /url: https://hsph.harvard.edu/news/psychological-safety-at-work-is-essential-especially-amid-crisis/
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - heading "Teachers" [level=3] [ref=e264]
+              - paragraph [ref=e265]: Why it’s important that schools create space to acknowledge and respond to the stress of the job.
+            - link "Teachers" [ref=e266] [cursor=pointer]:
+              - /url: https://www.gse.harvard.edu/ideas/usable-knowledge/19/12/safeguarding-mental-health-teachers
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - heading "Executives" [level=3] [ref=e269]
+              - paragraph [ref=e270]: Why it’s important for organizations to address mental health and how executives should handle pressure at the top.
+            - link "Executives" [ref=e271] [cursor=pointer]:
+              - /url: https://www.library.hbs.edu/working-knowledge/what-will-it-take-to-confront-the-invisible-mental-health-crisis-in-business
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - heading "Factory workers" [level=3] [ref=e274]
+              - paragraph [ref=e275]: Research shows that a one-size-fits-all approach to worker wellbeing initiatives aren’t as effective as ones catered to workers specific needs.
+            - link "Factory workers" [ref=e276] [cursor=pointer]:
+              - /url: https://shine.fas.harvard.edu/2023/06/02/new-paper-differences-in-well-being-among-factory-workers-in-six-countries/
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - heading "Doctors" [level=3] [ref=e279]
+              - paragraph [ref=e280]: Sharing stories of personal struggle can help doctors become better at their jobs.
+            - link "Doctors" [ref=e281] [cursor=pointer]:
+              - /url: https://magazine.hms.harvard.edu/articles/medicine-burnout-and-stories-doctors-tell
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - heading "Athletes" [level=3] [ref=e284]
+              - paragraph [ref=e285]: A study found that NFL players face an increased risk of suicide compared to basketball and baseball players.
+            - link "Athletes" [ref=e286] [cursor=pointer]:
+              - /url: https://hsph.harvard.edu/news/study-shows-rise-in-suicide-rate-among-nfl-players/
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - heading "Delving deeper" [level=2] [ref=e290]
+          - paragraph [ref=e293]: Harvard faculty and alums are inviting readers and listeners to take a closer look at the many corners of mental health.
+        - separator [ref=e294]
+      - generic [ref=e297]:
+        - generic [ref=e299]:
+          - figure [ref=e301]:
+            - img "Photo of Arthur Brooks and Oprah Winfrey" [ref=e302]
+          - generic [ref=e303]:
+            - heading "Want to be happier?" [level=3] [ref=e304]
+            - paragraph [ref=e306]: "Harvard professor Arthur C. Brooks co-wrote a book with Oprah Winfrey, “Build the Life You Want: The Art and Science of Getting Happier,” which presents small improvements readers can make in their daily lives."
+          - generic [ref=e308] [cursor=pointer]:  Read more about their tips for happiness
+          - link "Want to be happier?" [ref=e309] [cursor=pointer]:
+            - /url: https://news.harvard.edu/gazette/story/2023/09/brooks-oprah-cant-make-you-happy-but-they-can-help/
+            - text: Read more about their tips for happiness
+        - generic [ref=e311]:
+          - figure [ref=e313]:
+            - img "Book cover for Life Under Pressure" [ref=e314]
+          - generic [ref=e315]:
+            - heading "Talking about suicide saves kids’ lives" [level=3] [ref=e316]
+            - paragraph [ref=e318]: Authors of “Life Under Pressure,” Anna S. Mueller and Seth Abrutyn recommend talking with students and showing concern for their mental health as the guiding principle for responding to a suicide.
+          - generic [ref=e320] [cursor=pointer]:  Learn more about their book
+          - link "Talking about suicide saves kids’ lives" [ref=e321] [cursor=pointer]:
+            - /url: https://hsph.harvard.edu/news/talking-about-suicide-saves-kids-lives/
+            - text: Learn more about their book
+        - generic [ref=e323]:
+          - figure [ref=e325]:
+            - img "Photo of Jennifer Wallace" [ref=e326]
+          - generic [ref=e327]:
+            - heading "Why mattering matters" [level=3] [ref=e328]
+            - paragraph [ref=e330]: "“Mattering: The Secret to a Life of Deep Connection and Purpose,” a book by Jennifer Breheny Wallace, explains the power of feeling valued and asking for help."
+          - generic [ref=e332] [cursor=pointer]:  Read more about Jennifer’s book
+          - link "Why mattering matters" [ref=e333] [cursor=pointer]:
+            - /url: https://news.harvard.edu/gazette/story/2026/03/why-mattering-matters/
+            - text: Read more about Jennifer’s book
+      - generic [ref=e336]:
+        - generic [ref=e337]:
+          - generic [ref=e338]:
+            - heading "Harvard Thinking" [level=3] [ref=e339]
+            - paragraph [ref=e340]:
+              - link "“The Things We Carry”" [ref=e341] [cursor=pointer]:
+                - /url: https://news.harvard.edu/gazette/story/2026/03/harvard-thinking-the-things-we-carry/
+          - paragraph [ref=e343]: This episode of the Harvard Thinking podcast features experts discussing how trauma and adversity affect our biology and what that might mean for health care in the future.
+          - figure [ref=e344]:
+            - img "<h3>Harvard Thinking</h3> <p><a href=\"https://news.harvard.edu/gazette/story/2026/03/harvard-thinking-the-things-we-carry/\">“The Things We Carry”</a></p>" [ref=e345]
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - heading "Colloquy" [level=3] [ref=e348]
+            - paragraph [ref=e349]:
+              - link "“The Graduate Student Mental Health Crisis”" [ref=e350] [cursor=pointer]:
+                - /url: https://gsas.harvard.edu/news/colloquy-podcast-graduate-student-mental-health-crisis
+          - paragraph [ref=e352]: This episode features alum and clinical psychologist Emily Bernstein who studies the challenges faced by graduate students and why she thinks our smartphones could become an important vehicle for delivering mental health care.
+          - figure [ref=e353]:
+            - img "<h3>Colloquy</h3> <p><a href=\"https://gsas.harvard.edu/news/colloquy-podcast-graduate-student-mental-health-crisis\">“The Graduate Student Mental Health Crisis”</a></p>" [ref=e354]
+      - generic [ref=e356]:
+        - generic [ref=e357]:
+          - heading "On our campus" [level=2] [ref=e358]
+          - paragraph [ref=e361]: All across Harvard, mental health services are expanding and improving to support the wellbeing of students, faculty, and staff.
+        - separator [ref=e362]
+      - generic [ref=e367]:
+        - generic [ref=e369]:
+          - figure [ref=e371]
+          - generic [ref=e372]:
+            - heading "Supporting wellbeing and mental health" [level=3] [ref=e373]
+            - generic [ref=e374]: Harvard is raising awareness of available mental health services, improving access to and availability of these services, and implementing new services on campus.
+            - link " Learn more about mental wellbeing at Harvard" [ref=e375] [cursor=pointer]:
+              - /url: https://www.harvard.edu/wellbeing/
+        - generic [ref=e377]:
+          - figure [ref=e379]
+          - generic [ref=e380]:
+            - heading "Support at the theater" [level=3] [ref=e381]
+            - generic [ref=e382]: Harvard's American Repertory Theater worked with a Harvard-trained psychologist to design resources in case a production unintentionally activates distressing or traumatic memories.
+            - link " Learn more about the resources" [ref=e383] [cursor=pointer]:
+              - /url: https://americanrepertorytheater.org/plan-your-visit/audience-support-resources/
+        - generic [ref=e385]:
+          - figure [ref=e387]
+          - generic [ref=e388]:
+            - heading "Increased rest, decreased stress" [level=3] [ref=e389]
+            - generic [ref=e390]: Harvard SEAS students spent a semester working to address both mental wellness on campus and the challenges students face finding the wellness resources to promote it.
+            - link " Learn more about their research" [ref=e391] [cursor=pointer]:
+              - /url: https://seas.harvard.edu/news/increased-rest-decreased-stress
+        - generic [ref=e393]:
+          - figure [ref=e395]
+          - generic [ref=e396]:
+            - heading "Managing your mental health abroad" [level=3] [ref=e397]
+            - generic [ref=e398]: While abroad, it's important to be kind to yourself and take time for self-care. Harvard's Global Support Services have collected strategies and tips to help manage, adapt, and recover from difficult situations.
+            - link " Learn more about the guide" [ref=e399] [cursor=pointer]:
+              - /url: https://www.globalsupport.harvard.edu/travel/advice/resilient-traveling-managing-mental-health-abroad
+        - generic [ref=e401]:
+          - figure [ref=e403]
+          - generic [ref=e404]:
+            - heading "Supporting spiritual care" [level=3] [ref=e405]
+            - generic [ref=e406]: In their commitment to religious pluralism, Harvard Divinity School offers students spiritual care, counseling, and other resources to deepen their intellectual and spiritual lives.
+            - link " Learn more about the resources" [ref=e407] [cursor=pointer]:
+              - /url: https://www.hds.harvard.edu/community-life/religious-and-spiritual-life
+        - generic [ref=e409]:
+          - figure [ref=e411]
+          - generic [ref=e412]:
+            - heading "Bringing mindfulness to the Harvard Longwood community" [level=3] [ref=e413]
+            - generic [ref=e414]: When Mallory Hackett isn't working as an administrative coordinator at Harvard's School of Dental Medicine, she is active with the Health and Wellness Committee where she helps promote mental and physical wellbeing for all Dental School students.
+            - link " Learn more about Mallory's work" [ref=e415] [cursor=pointer]:
+              - /url: https://www.hsdm.harvard.edu/news/2025/10/bringing-mindfulness-harvard-longwood-community
+      - generic [ref=e416]:
+        - figure
+        - generic [ref=e417]:
+          - generic [ref=e419]:
+            - paragraph [ref=e420]: You may also like
+            - heading "Related In Focus topics" [level=2] [ref=e421]
+          - list [ref=e423]:
+            - listitem [ref=e424]:
+              - link "Mindfulness & Meditation" [ref=e425] [cursor=pointer]:
+                - /url: https://www.harvard.edu/in-focus/mindfulness-meditation/
+            - listitem [ref=e426]:
+              - link "Happiness" [ref=e427] [cursor=pointer]:
+                - /url: https://www.harvard.edu/in-focus/happiness/
+            - listitem [ref=e428]:
+              - link "Healthy living" [ref=e429] [cursor=pointer]:
+                - /url: https://www.harvard.edu/in-focus/healthy-living/
+  - contentinfo [ref=e430]:
+    - generic [ref=e431]:
+      - generic [ref=e432]:
+        - generic [ref=e433]:
+          - heading "Security & Brand" [level=2] [ref=e434]
+          - navigation "Security & Brand Navigation" [ref=e435]:
+            - list [ref=e436]:
+              - listitem [ref=e437]:
+                - link "Report Copyright Infringement" [ref=e438] [cursor=pointer]:
+                  - /url: https://www.harvard.edu/copyright-issue/
+              - listitem [ref=e439]:
+                - link "Report Security Issue" [ref=e440] [cursor=pointer]:
+                  - /url: https://www.harvard.edu/security-issue/
+              - listitem [ref=e441]:
+                - link "Trademark Notice" [ref=e442] [cursor=pointer]:
+                  - /url: https://trademark.harvard.edu/pages/trademark-notice
+        - generic [ref=e443]:
+          - heading "Website" [level=2] [ref=e444]
+          - navigation "Website Navigation" [ref=e445]:
+            - list [ref=e446]:
+              - listitem [ref=e447]:
+                - link "Accessibility" [ref=e448] [cursor=pointer]:
+                  - /url: https://accessibility.harvard.edu/
+              - listitem [ref=e449]:
+                - link "Digital Accessibility" [ref=e450] [cursor=pointer]:
+                  - /url: https://accessibility.huit.harvard.edu/digital-accessibility-policy
+              - listitem [ref=e451]:
+                - link "Privacy statement" [ref=e452] [cursor=pointer]:
+                  - /url: https://www.harvard.edu/privacy-statement/
+        - generic [ref=e453]:
+          - heading "Get In Touch" [level=2] [ref=e454]
+          - navigation "Get In Touch Navigation" [ref=e455]:
+            - list [ref=e456]:
+              - listitem [ref=e457]:
+                - link "Contact Harvard" [ref=e458] [cursor=pointer]:
+                  - /url: /contact-harvard
+              - listitem [ref=e459]:
+                - link "Maps & Directions" [ref=e460] [cursor=pointer]:
+                  - /url: /maps-directions
+              - listitem [ref=e461]:
+                - link "Jobs" [ref=e462] [cursor=pointer]:
+                  - /url: https://hr.harvard.edu/careers
+      - generic [ref=e463]:
+        - paragraph [ref=e465]: Copyright © 2026 The President and Fellows of Harvard College
+        - link "Harvard University" [ref=e467] [cursor=pointer]:
+          - /url: https://www.harvard.edu/
+          - img "Harvard University" [ref=e468]
+        - list [ref=e471]:
+          - listitem [ref=e472]:
+            - link "Instagram" [ref=e473] [cursor=pointer]:
+              - /url: https://www.instagram.com/harvard/
+              - generic [ref=e474]: Instagram
+              - img [ref=e475]
+          - listitem [ref=e476]:
+            - link "TikTok" [ref=e477] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@harvard
+              - generic [ref=e478]: TikTok
+              - img [ref=e479]
+          - listitem [ref=e480]:
+            - link "LinkedIn" [ref=e481] [cursor=pointer]:
+              - /url: https://www.linkedin.com/school/harvard-university
+              - generic [ref=e482]: LinkedIn
+              - img [ref=e483]
+          - listitem [ref=e484]:
+            - link "Facebook" [ref=e485] [cursor=pointer]:
+              - /url: https://www.facebook.com/Harvard/
+              - generic [ref=e486]: Facebook
+              - img [ref=e487]
+          - listitem [ref=e488]:
+            - link "YouTube" [ref=e489] [cursor=pointer]:
+              - /url: https://www.youtube.com/harvard
+              - generic [ref=e490]: YouTube
+              - img [ref=e491]

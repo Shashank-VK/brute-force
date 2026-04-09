@@ -1,0 +1,130 @@
+Component 10: Marquee (Magic UI)
+What it does: Infinite horizontal scroll of cards/content. Two rows moving in opposite directions. Pauses on hover. Gradient fade on edges. CSS --duration variable controls speed.
+
+Source: Magic UI (@/registry/magicui/marquee)
+
+Dependencies: Same as NumberTicker — need the actual Marquee source component. Magic UI marquee is typically pure CSS animation (translateX) with a React wrapper. Zero heavy deps.
+
+Where it fits in Boot Force:
+
+Primary use — Announcements ticker on homepage:
+
+Single row marquee scrolling active announcements
+Each item: announcement title + brief content
+Replaces our planned basic ticker with something visually polished
+Secondary uses:
+
+Tech stack showcase — a marquee of technology logos/icons the club works with (React, Python, Figma, etc.). Adds visual richness to the homepage or about section.
+Member testimonials / highlights — the demo shows review cards. We could use this for member quotes about the club experience. Low priority but visually impressive if time allows.
+Modifications needed for our brand:
+
+Card styling: replace bg-gray-950/[.01] with our glass style: bg-[#140A29]/40 backdrop-blur-md border-[#2D1B4E]
+Hover: border glow border-[#00F0FF] shadow-[0_0_15px_rgba(0,240,255,0.3)]
+Text colors: #F2F0FF for names, #A39BBA for secondary text
+Edge gradients: from-[#0A0514] instead of from-background to match our void color
+For announcements: simplify to just text content, no avatar/username — single row, not two
+pauseOnHover stays — good UX
+What NOT to do with it:
+
+Don't use it for the leaderboard (leaderboard needs real-time updates, not a scroll loop)
+Don't put two marquee rows on the homepage (one is elegant, two is busy)
+Assessment: Keeper. Clean, performant, versatile.
+
+import { cn } from "@/lib/utils"
+import { Marquee } from "@/registry/magicui/marquee"
+
+const reviews = [
+{
+name: "Jack",
+username: "@jack",
+body: "I've never seen anything like this before. It's amazing. I love it.",
+img: "https://avatar.vercel.sh/jack",
+},
+{
+name: "Jill",
+username: "@jill",
+body: "I don't know what to say. I'm speechless. This is amazing.",
+img: "https://avatar.vercel.sh/jill",
+},
+{
+name: "John",
+username: "@john",
+body: "I'm at a loss for words. This is amazing. I love it.",
+img: "https://avatar.vercel.sh/john",
+},
+{
+name: "Jane",
+username: "@jane",
+body: "I'm at a loss for words. This is amazing. I love it.",
+img: "https://avatar.vercel.sh/jane",
+},
+{
+name: "Jenny",
+username: "@jenny",
+body: "I'm at a loss for words. This is amazing. I love it.",
+img: "https://avatar.vercel.sh/jenny",
+},
+{
+name: "James",
+username: "@james",
+body: "I'm at a loss for words. This is amazing. I love it.",
+img: "https://avatar.vercel.sh/james",
+},
+]
+
+const firstRow = reviews.slice(0, reviews.length / 2)
+const secondRow = reviews.slice(reviews.length / 2)
+
+const ReviewCard = ({
+img,
+name,
+username,
+body,
+}: {
+img: string
+name: string
+username: string
+body: string
+}) => {
+return (
+<figure
+className={cn(
+"relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
+// light styles
+"border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+// dark styles
+"dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
+)}
+>
+<div className="flex flex-row items-center gap-2">
+<img className="rounded-full" width="32" height="32" alt="" src={img} />
+<div className="flex flex-col">
+<figcaption className="text-sm font-medium dark:text-white">
+{name}
+</figcaption>
+<p className="text-xs font-medium dark:text-white/40">{username}</p>
+</div>
+</div>
+<blockquote className="mt-2 text-sm">{body}</blockquote>
+</figure>
+)
+}
+
+export function MarqueeDemo() {
+return (
+<div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+<Marquee pauseOnHover className="[--duration:20s]">
+{firstRow.map((review) => (
+<ReviewCard key={review.username} {...review} />
+))}
+</Marquee>
+<Marquee reverse pauseOnHover className="[--duration:20s]">
+{secondRow.map((review) => (
+<ReviewCard key={review.username} {...review} />
+))}
+</Marquee>
+<div className="from-background pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r"></div>
+<div className="from-background pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l"></div>
+</div>
+)
+}

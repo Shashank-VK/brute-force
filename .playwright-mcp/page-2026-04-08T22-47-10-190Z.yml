@@ -1,0 +1,123 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "Deployments" [level=1] [ref=e6]:
+      - img [ref=e7]
+      - text: Deployments
+    - paragraph [ref=e11]: A curated portfolio of club-built projects. The engine of our credibility.
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - img [ref=e14]
+      - text: "Filter by Domain:"
+    - button "All" [ref=e16] [cursor=pointer]
+    - button "Web" [ref=e17] [cursor=pointer]
+    - button "AI/ML" [ref=e18] [cursor=pointer]
+    - button "IoT" [ref=e19] [cursor=pointer]
+  - generic [ref=e20]:
+    - heading "Featured Deployment" [level=2] [ref=e21]:
+      - img [ref=e22]
+      - text: Featured Deployment
+    - generic [ref=e24]:
+      - img "Boot Force Platform v1.0" [ref=e26]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: Web
+          - generic [ref=e31]: "2026"
+        - heading "Boot Force Platform v1.0" [level=3] [ref=e32]
+        - paragraph [ref=e33]: The official web platform for the club, built from scratch in 48 hours for Web Weave '26. Features real-time leaderboards, challenge submissions, and an admin dashboard.
+        - generic [ref=e34]:
+          - generic [ref=e35]: Next.js
+          - generic [ref=e36]: Supabase
+          - generic [ref=e37]: Tailwind
+          - generic [ref=e38]: Framer Motion
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - link [ref=e41] [cursor=pointer]:
+              - /url: https://github.com
+              - img [ref=e42]
+            - link [ref=e45] [cursor=pointer]:
+              - /url: https://vercel.com
+              - img [ref=e46]
+            - link [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e51]
+          - button "124" [ref=e54] [cursor=pointer]:
+            - img [ref=e55]
+            - generic [ref=e57]: "124"
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - img "Auto-Grader AI" [ref=e61]
+        - generic [ref=e63]: AI/ML
+      - generic [ref=e64]:
+        - heading "Auto-Grader AI" [level=3] [ref=e65]
+        - paragraph [ref=e66]: A python-based microservice that automatically grades basic algorithmic challenge submissions and updates the Supabase database via edge functions.
+      - generic [ref=e68]:
+        - generic [ref=e69]: Python
+        - generic [ref=e70]: FastAPI
+        - generic [ref=e71]: Docker
+        - generic [ref=e72]: OpenAI
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - img [ref=e75]
+          - text: "2"
+          - generic [ref=e80]: •
+          - text: "2025"
+        - generic [ref=e81]:
+          - button "85" [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+            - text: "85"
+          - link "View" [ref=e85] [cursor=pointer]:
+            - /url: https://github.com
+            - text: View
+            - img [ref=e86]
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - img "Hackathon Survival Guide App" [ref=e92]
+        - generic [ref=e94]: Web
+      - generic [ref=e95]:
+        - heading "Hackathon Survival Guide App" [level=3] [ref=e96]
+        - paragraph [ref=e97]: A progressive web app built by the freshers to help students track sleep, caffeine intake, and merge conflicts during 48-hour events.
+      - generic [ref=e99]:
+        - generic [ref=e100]: React
+        - generic [ref=e101]: Vite
+        - generic [ref=e102]: PWA
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - img [ref=e105]
+          - text: "3"
+          - generic [ref=e110]: •
+          - text: "2025"
+        - generic [ref=e111]:
+          - button "312" [ref=e112] [cursor=pointer]:
+            - img [ref=e113]
+            - text: "312"
+          - link "View" [ref=e115] [cursor=pointer]:
+            - /url: https://vercel.com
+            - text: View
+            - img [ref=e116]
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - img "Smart Campus IoT" [ref=e122]
+        - generic [ref=e124]: IoT
+      - generic [ref=e125]:
+        - heading "Smart Campus IoT" [level=3] [ref=e126]
+        - paragraph [ref=e127]: Hardware and software integration to monitor lab occupancy and air quality in real-time, streaming data to a central dashboard.
+      - generic [ref=e129]:
+        - generic [ref=e130]: Arduino
+        - generic [ref=e131]: C++
+        - generic [ref=e132]: MQTT
+        - generic [ref=e133]: React
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - img [ref=e136]
+          - text: "5"
+          - generic [ref=e141]: •
+          - text: "2024"
+        - generic [ref=e142]:
+          - button "67" [ref=e143] [cursor=pointer]:
+            - img [ref=e144]
+            - text: "67"
+          - link "View" [ref=e146] [cursor=pointer]:
+            - /url: https://github.com
+            - text: View
+            - img [ref=e147]

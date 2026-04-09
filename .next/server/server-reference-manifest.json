@@ -1,0 +1,46 @@
+{
+  "node": {
+    "2b43f311545b4d096b1a0eeed5d3389f2c31e0a4": {
+      "workers": {
+        "app/(auth)/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/signup/page": "rsc",
+        "app/(auth)/login/page": "rsc"
+      }
+    },
+    "697ffe0aea3f74d33dd3a3096b0be6e5c61050fa": {
+      "workers": {
+        "app/(auth)/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/signup/page": "rsc",
+        "app/(auth)/login/page": "rsc"
+      }
+    },
+    "7e1a7620b5cba5c1671a746782dce65d33856227": {
+      "workers": {
+        "app/(auth)/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/signup/page": "rsc",
+        "app/(auth)/login/page": "rsc"
+      }
+    },
+    "bb4fc1427eeeee68ed99cb842e43f7bde921aa2f": {
+      "workers": {
+        "app/(auth)/signup/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cshash%5C%5CDesktop%5C%5Cclub%5C%5Capp%5C%5C(auth)%5C%5Cactions.ts%22%2C%5B%22login%22%2C%22signInWithGoogle%22%2C%22signup%22%2C%22signInWithGithub%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/signup/page": "rsc",
+        "app/(auth)/login/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "U/ZOtYsDiY4Xx6PjQjz995oy9gn10vVs1mgbzrGxy0c="
+}

@@ -1,0 +1,45 @@
+1. Animated Number Ticker / Counter
+Why we need it: Homepage stats bar — "127 Members, 24 Events, 15 Challenges, 8 Projects" counting up from zero. We defined StatCounter in Phase 1 but don't have a component for it yet.
+
+What to search for on 21st.dev:
+
+"number ticker"
+"animated counter"
+"counting animation"
+What it should do: Accept a target number, animate from 0 to that number on scroll-into-view, use JetBrains Mono font for the tech feel.
+
+
+code 
+ import { NumberTicker } from "@/registry/magicui/number-ticker"
+
+export function NumberTickerDemo() {
+return (
+<NumberTicker value={100} className="text-8xl font-medium tracking-tighter whitespace-pre-wrap text-black dark:text-white" />
+)
+}
+
+ NumberTicker (Magic UI)
+What it does: Animates a number from 0 to the target value with a smooth ticking effect. Clean, minimal, exactly what we need.
+
+Source: Magic UI (@/registry/magicui/number-ticker)
+
+Dependencies: We need to find the actual source code. Magic UI components are usually copy-paste like shadcn. The implementation typically uses framer-motion's useMotionValue and useTransform with useInView to trigger on scroll.
+
+Where it fits in Boot Force:
+
+Homepage stats bar — four tickers in a row:
+127 Members
+24 Events Hosted
+15 Challenges
+8 Projects Built
+Admin dashboard — stats cards showing total users, submissions, etc.
+Leaderboard — score displays
+Profile — total score display
+Modifications needed for our brand:
+
+Replace text-black dark:text-white with text-light (#F2F0FF)
+Font: JetBrains Mono (our data font), not default
+Add a subtle magenta glow on completion (optional, cinematic touch)
+Wrap in ScrollReveal so it only triggers when scrolled into view
+Assessment: Keeper. Replaces our planned custom StatCounter component with a proven implementation.
+

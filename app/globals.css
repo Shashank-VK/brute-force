@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-base font-sans text-body antialiased;
+    position: relative;
+    isolation: isolate;
+    background-image:
+      radial-gradient(circle at 12% 8%, rgba(212, 163, 115, 0.14), transparent 34%),
+      radial-gradient(circle at 88% 18%, rgba(204, 213, 174, 0.2), transparent 30%),
+      linear-gradient(135deg, #fefae0 0%, #faedcd 52%, #e9edc9 100%);
+    background-attachment: fixed;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+    background-image: url("/textures/concrete-wall.avif");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    mix-blend-mode: multiply;
+    filter: contrast(1.08) saturate(0.7) brightness(1.06);
+  }
+
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image:
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.08'/%3E%3C/svg%3E"),
+      radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.18), transparent 55%);
+    opacity: 0.35;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-tight text-heading;
+  }
+
+  ::selection {
+    background: rgba(212, 163, 115, 0.25);
+    color: #3d2b1f;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .card-surface {
+    @apply rounded-2xl border border-border bg-surface shadow-card;
+  }
+
+  .card-surface-hover {
+    @apply transition-all duration-300 ease-out hover:border-primary/30 hover:shadow-card-hover hover:-translate-y-0.5;
+  }
+
+  .section-padding {
+    @apply px-6 py-20 md:px-8 lg:px-12 xl:px-16;
+  }
+
+  .container-tight {
+    @apply mx-auto max-w-6xl;
+  }
+
+  /* Scrollbar hide utility */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

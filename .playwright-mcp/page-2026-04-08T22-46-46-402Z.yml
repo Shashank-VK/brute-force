@@ -1,0 +1,25 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "Visual Logs" [level=1] [ref=e6]:
+      - img [ref=e7]
+      - text: Visual Logs
+    - paragraph [ref=e11]: High-resolution captures of Boot Force operations, hackathons, and physical meets.
+  - generic [ref=e12]:
+    - button "Web Weave '25" [ref=e13] [cursor=pointer]
+    - button "AI/ML Workshop" [ref=e14] [cursor=pointer]
+  - generic [ref=e15]:
+    - heading "Web Weave '25" [level=2] [ref=e16]
+    - generic [ref=e17]: March 2025 • 4 captures
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - img "Capture 0" [ref=e20]
+      - img [ref=e22]
+    - generic [ref=e27]:
+      - img "Capture 1" [ref=e28]
+      - img [ref=e30]
+    - generic [ref=e35]:
+      - img "Capture 2" [ref=e36]
+      - img [ref=e38]
+    - generic [ref=e43]:
+      - img "Capture 3" [ref=e44]
+      - img [ref=e46]

@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"app\\\\(protected)\\\\dashboard\\\\page.tsx -> @/components/ui/number-ticker\":{\"id\":\"app\\\\(protected)\\\\dashboard\\\\page.tsx -> @/components/ui/number-ticker\",\"files\":[\"static/chunks/_app-pages-browser_components_ui_number-ticker_tsx.js\"]}}"

@@ -1,0 +1,275 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content ↓" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Massachusetts Institute of Technology" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - heading "Massachusetts Institute of Technology" [level=1] [ref=e8]
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Education" [ref=e11] [cursor=pointer]:
+            - /url: /education
+        - listitem [ref=e12]:
+          - link "Research" [ref=e13] [cursor=pointer]:
+            - /url: /research
+        - listitem [ref=e14]:
+          - link "Innovation" [ref=e15] [cursor=pointer]:
+            - /url: /innovation
+        - listitem [ref=e16]:
+          - link "Admissions + Aid" [ref=e17] [cursor=pointer]:
+            - /url: /admissions-aid
+        - listitem [ref=e18]:
+          - link "Campus Life" [ref=e19] [cursor=pointer]:
+            - /url: /campus-life
+        - listitem [ref=e20]:
+          - link "News" [ref=e21] [cursor=pointer]:
+            - /url: https://news.mit.edu/
+        - listitem [ref=e22]:
+          - button "More ↓" [ref=e23]
+      - link "open search" [ref=e25] [cursor=pointer]:
+        - /url: /search
+        - generic [ref=e26]: Search
+        - img [ref=e27]
+  - main [ref=e32]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: Explore websites, people, and locations
+        - generic [ref=e38]:
+          - img [ref=e39]
+          - textbox "Explore websites, people, and locations" [ref=e43]:
+            - /placeholder: ""
+          - generic: What are you looking for?
+      - generic [ref=e44]:
+        - generic [ref=e46]:
+          - heading "Top resources for" [level=4] [ref=e47]
+          - list [ref=e48]:
+            - listitem [ref=e49]:
+              - link "prospective students" [ref=e50] [cursor=pointer]:
+                - /url: /resources/#prospective-students
+            - listitem [ref=e51]:
+              - link "current students" [ref=e52] [cursor=pointer]:
+                - /url: /resources/#current-students
+            - listitem [ref=e53]:
+              - link "faculty & staff" [ref=e54] [cursor=pointer]:
+                - /url: /resources/#faculty-and-staff
+            - listitem [ref=e55]:
+              - link "alumni" [ref=e56] [cursor=pointer]:
+                - /url: /resources/#alumni
+            - listitem [ref=e57]:
+              - link "parents & families" [ref=e58] [cursor=pointer]:
+                - /url: /parents
+            - listitem [ref=e59]:
+              - link "all resources" [ref=e60] [cursor=pointer]:
+                - /url: /resources
+        - list [ref=e63]:
+          - listitem [ref=e64]:
+            - link "MIT's response to government activity Read the latest about government activity affecting MIT." [ref=e65] [cursor=pointer]:
+              - /url: /response-government-activity
+              - generic [ref=e66]: MIT's response to government activity
+              - generic [ref=e67]: Read the latest about government activity affecting MIT.
+          - listitem [ref=e68]:
+            - link "Updates from campus Read the latest from MIT and its leaders regarding events on campus." [ref=e69] [cursor=pointer]:
+              - /url: /updates-from-campus
+              - generic [ref=e70]: Updates from campus
+              - generic [ref=e71]: Read the latest from MIT and its leaders regarding events on campus.
+    - region "spotlight" [ref=e72]:
+      - generic [ref=e73]:
+        - article [ref=e74]:
+          - generic [ref=e75]:
+            - figure [ref=e77]
+            - paragraph [ref=e80]:
+              - text: The vibration of an atom is nature’s steadiest timekeeper; today’s atomic clocks underpin GPS, communications, and electronics worldwide. “But we and other scientists are constantly refining and chasing even more perfect time,”
+              - link "Vladan Vuletić" [ref=e81] [cursor=pointer]:
+                - /url: https://physics.mit.edu/faculty/vladan-vuletic/
+              - text: says.
+            - generic [ref=e82]:
+              - heading "Apr 8, 2026" [level=4] [ref=e83]
+              - link "Visit MIT News" [ref=e84] [cursor=pointer]:
+                - /url: http://news.mit.edu
+              - link "Watch video" [ref=e85] [cursor=pointer]:
+                - /url: https://youtu.be/ExYZyvK0b_M
+              - generic [ref=e86]:
+                - heading "Share:" [level=4] [ref=e87]
+                - list [ref=e88]:
+                  - listitem [ref=e89]:
+                    - link "Twitter" [ref=e90] [cursor=pointer]:
+                      - /url: https://twitter.com/share?url=http://web.mit.edu/spotlight/perfection-timekeeping
+                      - generic [ref=e91]: Twitter
+                      - img [ref=e92]
+                  - listitem [ref=e94]:
+                    - link "Facebook" [ref=e95] [cursor=pointer]:
+                      - /url: https://www.facebook.com/sharer/sharer.php?u=http://web.mit.edu/spotlight/perfection-timekeeping
+                      - generic [ref=e96]: Facebook
+                      - img [ref=e97]
+              - link "Explore more spotlights" [ref=e101] [cursor=pointer]:
+                - /url: ""
+        - generic [ref=e102]:
+          - heading "Research and Education that Matter" [level=2] [ref=e103]
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - link "Sphere with water and the letter \"H\" for hydrogen" [ref=e108] [cursor=pointer]:
+                - /url: http://news.mit.edu/2026/toward-cheaper-cleaner-hydrogen-production-0403
+                - img "Sphere with water and the letter \"H\" for hydrogen" [ref=e109]
+              - generic [ref=e110]:
+                - generic:
+                  - strong
+                - heading "Improving hydrogen production" [level=3] [ref=e112]:
+                  - link "Improving hydrogen production" [ref=e113] [cursor=pointer]:
+                    - /url: http://news.mit.edu/2026/toward-cheaper-cleaner-hydrogen-production-0403
+                - paragraph [ref=e115]: Hydrogen is key to many industrial processes, but its production is energy-intensive. But 1s1 Energy, co-founded by alumnus Dan Sobek, has developed an electrochemical cell material for hydrogen electrolyzers that it says reduces energy use by 30 percent.
+            - generic [ref=e117]:
+              - link "Artemis spacecraft launches, with lots of smoke." [ref=e119] [cursor=pointer]:
+                - /url: http://news.mit.edu/2026/lincoln-laboratory-laser-communications-terminal-launches-artemis-ii-0402
+                - img "Artemis spacecraft launches, with lots of smoke." [ref=e120]
+              - generic [ref=e121]:
+                - generic:
+                  - strong
+                - heading "Technology for Artemis II" [level=3] [ref=e123]:
+                  - link "Technology for Artemis II" [ref=e124] [cursor=pointer]:
+                    - /url: http://news.mit.edu/2026/lincoln-laboratory-laser-communications-terminal-launches-artemis-ii-0402
+                - paragraph [ref=e126]: NASA’s Orion spacecraft is carrying four astronauts and a state-of-the-art communications system developed at MIT Lincoln Laboratory on its way to the moon. The system uses lasers to send high-res video and images of the lunar surface down to Earth.
+            - generic [ref=e128]:
+              - link "Implant parts arranged like a a flower." [ref=e130] [cursor=pointer]:
+                - /url: http://news.mit.edu/2026/implantable-islet-cells-could-control-diabetes-without-insulin-injections-0326
+                - img "Implant parts arranged like a a flower." [ref=e131]
+              - generic [ref=e132]:
+                - generic:
+                  - strong
+                - heading "Better control of diabetes" [level=3] [ref=e134]:
+                  - link "Better control of diabetes" [ref=e135] [cursor=pointer]:
+                    - /url: http://news.mit.edu/2026/implantable-islet-cells-could-control-diabetes-without-insulin-injections-0326
+                - paragraph [ref=e137]: Researchers are developing an implantable device containing insulin-producing cells, to replace regular injections for type 1 diabetes. The goal is “a device that could continuously create protein therapeutics on demand and as needed by the patient,” Daniel Anderson says.
+            - generic [ref=e139]:
+              - link "A researcher training a robotic hand" [ref=e141] [cursor=pointer]:
+                - /url: http://news.mit.edu/2026/wristband-enables-wearers-control-robotic-hand-with-own-movements-0325
+                - img "A researcher training a robotic hand" [ref=e142]
+              - generic [ref=e143]:
+                - generic:
+                  - strong
+                - heading "Tracking hand gestures" [level=3] [ref=e145]:
+                  - link "Tracking hand gestures" [ref=e146] [cursor=pointer]:
+                    - /url: http://news.mit.edu/2026/wristband-enables-wearers-control-robotic-hand-with-own-movements-0325
+                - paragraph [ref=e148]: Engineers designed a wristband that lets wearers control a robotic hand with their own movements. By moving their hands and fingers, users can direct a robot to play piano or shoot a basketball, or manipulate objects in a virtual environment.
+            - generic [ref=e150]:
+              - link "Killian columns" [ref=e152] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=04JCB9GT64c
+                - img "Killian columns" [ref=e153]
+              - generic [ref=e154]:
+                - generic:
+                  - strong
+                - heading "A world without MIT" [level=3] [ref=e156]:
+                  - link "A world without MIT" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=04JCB9GT64c
+                - paragraph [ref=e159]: In a world without MIT, radar wouldn’t have been available to help win World War II. We might not have email, CT scans, time-release drugs, photolithography, or GPS. And we’d lose over 30,000 companies, employing millions of people. Can you imagine?
+            - generic [ref=e161]:
+              - link "Kilian Court" [ref=e163] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=r7R8ewU1Wqc
+                - img "Kilian Court" [ref=e164]
+              - generic [ref=e165]:
+                - generic:
+                  - strong
+                - heading "Contributions to the nation" [level=3] [ref=e167]:
+                  - link "Contributions to the nation" [ref=e168] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=r7R8ewU1Wqc
+                - paragraph [ref=e170]: Since its founding, MIT has been key to helping American science and innovation lead the world. Discoveries that begin here generate jobs and power the economy — and what we create today builds a better tomorrow for all of us.
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - heading "Want more about MIT?" [level=4] [ref=e174]
+            - paragraph [ref=e175]:
+              - text: Explore
+              - link "more spotlights" [ref=e176] [cursor=pointer]:
+                - /url: ""
+              - text: ", or subscribe to receive"
+              - link "daily or weekly doses of MIT" [ref=e177] [cursor=pointer]:
+                - /url: /mit-daily-weekly
+              - text: in your inbox.
+          - link "Subscribe" [ref=e178] [cursor=pointer]:
+            - /url: /mit-daily-weekly
+  - contentinfo [ref=e179]:
+    - list [ref=e180]:
+      - listitem [ref=e181]:
+        - link "Education" [ref=e182] [cursor=pointer]:
+          - /url: /education
+      - listitem [ref=e183]:
+        - link "Research" [ref=e184] [cursor=pointer]:
+          - /url: /research
+      - listitem [ref=e185]:
+        - link "Innovation" [ref=e186] [cursor=pointer]:
+          - /url: /innovation
+      - listitem [ref=e187]:
+        - link "Admissions + Aid" [ref=e188] [cursor=pointer]:
+          - /url: /admissions-aid
+      - listitem [ref=e189]:
+        - link "Campus Life" [ref=e190] [cursor=pointer]:
+          - /url: /campus-life
+      - listitem [ref=e191]:
+        - link "News" [ref=e192] [cursor=pointer]:
+          - /url: https://news.mit.edu/
+      - listitem [ref=e193]:
+        - link "About MIT" [ref=e194] [cursor=pointer]:
+          - /url: /about
+      - listitem [ref=e195]:
+        - link "Alumni" [ref=e196] [cursor=pointer]:
+          - /url: /alumni
+      - listitem [ref=e197]:
+        - link "Lifelong Learning" [ref=e198] [cursor=pointer]:
+          - /url: http://learn.mit.edu/
+      - listitem [ref=e199]:
+        - link "Give" [ref=e200] [cursor=pointer]:
+          - /url: /building-a-better-world
+    - generic [ref=e201]:
+      - paragraph [ref=e202]: Massachusetts Institute of Technology
+      - link "77 Massachusetts Avenue, Cambridge, MA, USA" [ref=e204] [cursor=pointer]:
+        - /url: https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.360091,-71.09416,15z/data=!4m5!3m4!1s0x0:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416
+      - list [ref=e205]:
+        - listitem [ref=e206]:
+          - link "Visit" [ref=e207] [cursor=pointer]:
+            - /url: /visitmit
+        - listitem [ref=e208]:
+          - link "Map" [ref=e209] [cursor=pointer]:
+            - /url: https://whereis.mit.edu/
+        - listitem [ref=e210]:
+          - link "Events" [ref=e211] [cursor=pointer]:
+            - /url: https://calendar.mit.edu/
+        - listitem [ref=e212]:
+          - link "People" [ref=e213] [cursor=pointer]:
+            - /url: /search/?redirect-origin=legacy&tab=directory
+        - listitem [ref=e214]:
+          - link "Jobs" [ref=e215] [cursor=pointer]:
+            - /url: https://hr.mit.edu/jobs
+        - listitem [ref=e216]:
+          - link "Contact" [ref=e217] [cursor=pointer]:
+            - /url: /contact
+        - listitem [ref=e218]:
+          - link "Privacy" [ref=e219] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e220]:
+          - link "Accessibility" [ref=e221] [cursor=pointer]:
+            - /url: /accessibility
+        - listitem [ref=e222]:
+          - list [ref=e223]:
+            - listitem [ref=e224]:
+              - link "Social Media Hub" [ref=e225] [cursor=pointer]:
+                - /url: https://socialmediahub.mit.edu/
+            - listitem [ref=e226]:
+              - link "MIT@twitter" [ref=e227] [cursor=pointer]:
+                - /url: https://twitter.com/mit
+                - generic [ref=e228]: MIT@twitter
+                - img [ref=e229]
+            - listitem [ref=e231]:
+              - link "MIT@facebook" [ref=e232] [cursor=pointer]:
+                - /url: https://www.facebook.com/MITnews
+                - generic [ref=e233]: MIT@facebook
+                - img [ref=e234]
+            - listitem [ref=e236]:
+              - link "MIT@youtube" [ref=e237] [cursor=pointer]:
+                - /url: https://www.youtube.com/mit
+                - generic [ref=e238]: MIT@youtube
+                - img [ref=e239]
+            - listitem [ref=e241]:
+              - link "MIT@instagram" [ref=e242] [cursor=pointer]:
+                - /url: https://www.instagram.com/mit/
+                - generic [ref=e243]: MIT@instagram
+                - img [ref=e244]
